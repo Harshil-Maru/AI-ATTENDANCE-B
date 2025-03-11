@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Face Point</title>
+    <link rel="stylesheet" href="subject.css">
+    <script src="subject.js" defer></script>
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo3.png" alt="Face Point Logo">
+        </div>
+
+        <div class="profile-menu">
+            <button class="add-user">+ Add Subject</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN_og07mQX6IDTy2GpZWFZPcFqT6XIyUQEvmKR1rOvJ_9lo2PaSFYGm0k-uGvlbpmiPI&usqp=CAU"
+                alt="Profile" class="profile-icon">
+            <div class="dropdown-menu" id="dropdown">
+                <button onclick="toggleTheme()">Change Theme</button>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="options">
+            <a href="maths.html" class="btn subject">
+                <img src="https://st2.depositphotos.com/5448780/9386/v/450/depositphotos_93861176-stock-illustration-hand-drawn-vector-school-set.jpg"
+                    alt="Maths">
+                <span>MATHS</span>
+            </a>
+            <a href="student.html" class="btn student">
+                <img src="https://i.pinimg.com/736x/d2/41/43/d24143b1642311d55976ad285f1b11f5.jpg" alt="BME">
+                <span>BME</span>
+            </a>
+            <a href="student.html" class="btn student">
+                <img src="https://img.myloview.com/stickers/technical-drawing-background-mechanical-engineering-drawing-700-127527135.jpg"
+                    alt="EGD">
+                <span>EGD</span>
+            </a>
+            <a href="student.html" class="btn student">
+                <img src="https://www.shutterstock.com/image-vector/rock-climbing-icon-doodle-sketch-600nw-494047471.jpg"
+                    alt="UHV">
+                <span>UHV</span>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

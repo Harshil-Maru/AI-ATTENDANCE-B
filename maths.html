@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Attendance</title>
+    <link rel="stylesheet" href="maths.css">
+    <script src="maths.js" defer></script>
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo3.png" alt="Face Point Logo">
+        </div>
+
+        <div class="profile-menu">
+            <button class="add-class">+ Add Class</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN_og07mQX6IDTy2GpZWFZPcFqT6XIyUQEvmKR1rOvJ_9lo2PaSFYGm0k-uGvlbpmiPI&usqp=CAU"
+                alt="Profile" class="profile-icon" onclick="toggleDropdown()">
+            <div class="dropdown-menu" id="dropdown">
+                <button onclick="toggleTheme()">Change Theme</button>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Maths Attendance</h1>
+
+        <!-- Filters Section -->
+        <div class="filters">
+            <label for="start-date">Start Date:</label>
+            <input type="date" id="start-date">
+
+            <label for="end-date">End Date:</label>
+            <input type="date" id="end-date">
+
+            <label for="class-type">Class Type:</label>
+            <select id="class-type">
+                <option value="lecture">Lecture</option>
+                <option value="lab">Lab</option>
+                <option value="tutorial">Tutorial</option>
+            </select>
+
+            <button id="apply-btn">Apply</button>
+            <button id="download-btn">Download PDF</button>
+        </div>
+
+        <!-- Attendance Data Section -->
+        <div id="attendance-container">
+            <h2>Attendance Data</h2>
+            <div id="attendance-data">
+                <!-- Data will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

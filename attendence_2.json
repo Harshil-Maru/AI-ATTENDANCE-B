@@ -1,0 +1,54 @@
+[
+  {
+    "User ID": 1,
+    "Name": "Krishnaraj",
+    "Date": "2025-2-18",
+    "Expected Check-in Time": "12:45:00",
+    "Check-in Time": "",
+    "Expected Check-out Time": "13:00:00",
+    "Check-out Time": "",
+    "Attendance Status": "Absent",
+    "Location": "23.2167, 72.6833",
+    "Work Duration": "",
+    "Late Status": ""
+  },
+  {
+    "User ID": 2,
+    "Name": "Mit",
+    "Date": "2025-2-18",
+    "Expected Check-in Time": "12:45:00",
+    "Check-in Time": "",
+    "Expected Check-out Time": "13:00:00",
+    "Check-out Time": "",
+    "Attendance Status": "Absent",
+    "Location": "23.2167, 72.6833",
+    "Work Duration": "",
+    "Late Status": ""
+  },
+  {
+    "User ID": 3,
+    "Name": "Hitesh",
+    "Date": "2025-2-18",
+    "Expected Check-in Time": "12:45:00",
+    "Check-in Time": "",
+    "Expected Check-out Time": "13:00:00",
+    "Check-out Time": "",
+    "Attendance Status": "Absent",
+    "Location": "23.2167, 72.6833",
+    "Work Duration": "",
+    "Late Status": ""
+  },
+  {
+    "User ID": 4,
+    "Name": "Helly",
+    "Date": "2025-2-18",
+    "Expected Check-in Time": "12:45:00",
+    "Check-in Time": "",
+    "Expected Check-out Time": "13:00:00",
+    "Check-out Time": "",
+    "Attendance Status": "Absent",
+    "Location": "23.2167, 72.6833",
+    "Work Duration": "",
+    "Late Status": ""
+  }
+]

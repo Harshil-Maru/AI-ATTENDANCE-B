@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Face Point</title>
+    <link rel="stylesheet" href="admin1.css">
+    <script src="admin1.js" defer></script>
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo3.png" alt="Face Point Logo">
+        </div>
+
+        <div class="profile-menu">
+            <button class="add-user">+ Add User</button>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN_og07mQX6IDTy2GpZWFZPcFqT6XIyUQEvmKR1rOvJ_9lo2PaSFYGm0k-uGvlbpmiPI&usqp=CAU"
+                alt="Profile" class="profile-icon">
+            <div class="dropdown-menu" id="dropdown">
+                <button onclick="toggleTheme()">Change Theme</button>
+                <button onclick="logout()">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Admin Dashboard</h1>
+        <div class="options">
+            <a href="subject.html" class="btn subject">
+                <span>Subjects</span>
+            </a>
+            <a href="students.html" class="btn student">
+                <span>Students</span>
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
