@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maths Attendance</title>
-    <link rel="stylesheet" href="maths.css">
-    <script src="maths.js" defer></script>
+    <link rel="stylesheet" href="depA.css">
+    <script src="depA.js" defer></script>
 </head>
 
 <body class="dark-mode">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="profile-menu">
-            <button class="add-class">+ Add Class</button>
+            <button class="add-class">+ Add Candidate</button>
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdN_og07mQX6IDTy2GpZWFZPcFqT6XIyUQEvmKR1rOvJ_9lo2PaSFYGm0k-uGvlbpmiPI&usqp=CAU"
                 alt="Profile" class="profile-icon" onclick="toggleDropdown()">
             <div class="dropdown-menu" id="dropdown">
@@ -39,13 +39,6 @@
 
             <label for="end-date">End Date:</label>
             <input type="date" id="end-date">
-
-            <label for="class-type">Class Type:</label>
-            <select id="class-type">
-                <option value="lecture">Lecture</option>
-                <option value="lab">Lab</option>
-                <option value="tutorial">Tutorial</option>
-            </select>
 
             <button id="apply-btn">Apply</button>
             <button id="download-btn">Download PDF</button>
